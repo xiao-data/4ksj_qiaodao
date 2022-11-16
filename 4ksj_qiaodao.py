@@ -9,7 +9,7 @@ from urllib.parse import urlencode
 
 # global variables
 uname = ''         # username
-upassword = ''   # password
+upassword = ''     # password
 loginhash = ''
 logpath = '/home/anaconda/4ksj.log'
 r = httpx.Client(http2=True)
